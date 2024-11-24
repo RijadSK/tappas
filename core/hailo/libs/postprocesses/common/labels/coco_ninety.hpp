@@ -4,6 +4,9 @@
 **/
 #pragma once
 #include <map>
+#include <stdint.h>
+#include <string>
+
 namespace common
 {
     static std::map<uint8_t, std::string> coco_ninety_classes = {

@@ -4,6 +4,9 @@
 **/
 #pragma once
 #include <map>
+#include <stdint.h>
+#include <string>
+
 namespace common
 {
     static std::map<uint16_t, std::string> imagenet_labels = {
